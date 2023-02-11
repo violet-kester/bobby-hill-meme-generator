@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Violet Kester - Bobby Hill Meme Generator - Rithm 30</title>
+  <link rel="stylesheet" href="assets/stylesheets/main.css">
+</head>
+<body>
+  <div class="grid">
+    <!--
+    H E A D E R
+    -->
+    <header>
+      <h1>Bobby Hill Meme Generator</h1>
+    </header>
+
+    <!--
+    B O B B Y
+    -->
+    <section id="bobby">
+    </section>
+
+    <!--
+    M E M E   G E N E R A T O R
+    -->
+    <div id="meme-generator">
+
+      <!-- T E X T   F O R M -->
+      <section id="text-form">
+        <form action="#">
+            <label for="topTextInput">Enter top text:</label>
+            <input type="text" id="topTextInput" onkeyup="setTop()">
+            <label for="bottomTextInput">Enter bottom text:</label>
+            <input type="text" id="bottomTextInput" onkeyup="setBottom()">
+        </form>
+      </section>
+
+      <!-- M E M E   D I S P L A Y -->
+      <section id="meme-display">
+        <div id="meme-container">
+          <img src="" id="meme-image">
+          <div id="top" class="meme-text"></div>
+          <div id="bottom" class="meme-text"></div>
+        </div>
+      </section>
+
+      <!-- I M G   U R L   F O R M -->
+      <section id="url-form">
+        <form action="#">
+          <label for="imgURL">Enter image URL:</label>
+          <input type="text" id="imgURL">
+          <input type="submit" id="generate-meme" value="Generate Meme">
+        </form>
+      </section>
+
+      <!-- B O B B I E S -->
+      <section id="bobbies">
+        <p>Or select an image below:</p>
+
+        <div class="bobby-square"><img src="./assets/images/bobby-bath.jpg" class ="bobby"></div>
+        <div class="bobby-square"><img src="./assets/images/bobby-bed.jpg" class ="bobby"></div>
+        <div class="bobby-square"><img src="./assets/images/bobby-booth.jpg" class ="bobby"></div>
+        <div class="bobby-square"><img src="./assets/images/bobby-chips.jpg" class ="bobby"></div>
+        <div class="bobby-square"><img src="./assets/images/bobby-concentrate.jpg" class ="bobby"></div>
+        <div class="bobby-square"><img src="./assets/images/bobby-cowboy.jpg" class ="bobby"></div>
+        <div class="bobby-square"><img src="./assets/images/bobby-cutie.jpg" class ="bobby"></div>
+        <div class="bobby-square"><img src="./assets/images/bobby-fence.jpg" class ="bobby"></div>
+        <div class="bobby-square"><img src="./assets/images/bobby-lazy.jpg" class ="bobby"></div>
+        <div class="bobby-square"><img src="./assets/images/bobby-library.jpg" class ="bobby"></div>
+        <div class="bobby-square"><img src="./assets/images/bobby-lunch.jpg" class ="bobby"></div>
+        <div class="bobby-square"><img src="./assets/images/bobby-meditate.jpg" class ="bobby"></div>
+        <div class="bobby-square"><img src="./assets/images/bobby-menu.jpg" class ="bobby"></div>
+        <div class="bobby-square"><img src="./assets/images/bobby-pool.jpg" class ="bobby"></div>
+        <div class="bobby-square"><img src="./assets/images/bobby-poster.jpg" class ="bobby"></div>
+        <div class="bobby-square"><img src="./assets/images/bobby-red.jpg" class ="bobby"></div>
+        <div class="bobby-square"><img src="./assets/images/bobby-rock.jpg" class ="bobby"></div>
+        <div class="bobby-square"><img src="./assets/images/bobby-sofa.jpg" class ="bobby"></div>
+        <div class="bobby-square"><img src="./assets/images/bobby-sunglasses.jpg" class ="bobby"></div>
+        <div class="bobby-square"><img src="./assets/images/bobby-thanks.jpg" class ="bobby"></div>
+        <div class="bobby-square"><img src="./assets/images/bobby-towel.jpg" class ="bobby"></div>
+        <div class="bobby-square"><img src="./assets/images/bobby-trash.jpg" class ="bobby"></div>
+        <div class="bobby-square"><img src="./assets/images/bobby-walk.jpg" class ="bobby"></div>
+        <div class="bobby-square"><img src="./assets/images/bobby-whatever.jpg" class ="bobby"></div>
+
+      </section>
+    </div>
+
+    <!--
+    H I S T O R Y
+    -->
+    <section id="history">
+      <p>History</p>
+      <ul>
+        <li>
+          <div class="history-container">
+            <img src="assets/images/bobby-lunch.jpg">
+            <div class="history-text history-top">Click to</div>
+            <div class="history-text history-bottom">Delete</div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+  </div>
+  <script src="sandbox.js"></script>
+</body>
+</html>
