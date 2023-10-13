@@ -386,7 +386,6 @@ H I S T O R Y
   bottom: 10px;
 }
 
-
 /*
 ========================================
 M E D I A   Q U E R I E S
@@ -399,63 +398,49 @@ M E D I A   Q U E R I E S
     font-size: 15px;
     background-position-y: -80px;
   }
-
   .grid {
     grid-gap: 10px;
   }
-
+  #bobbies {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
   h1 {
     font-size: 48px;
     line-height: 48px;
   }
-
   #meme-generator {
     padding-top: 0;
   }
-
   #meme-display {
     max-height: 550px;
     max-width: 620px;
   }
-
   input {
     font-size: 15px;
   }
-
   #meme-container {
     max-height: 550px;
     max-width: 620px;
   }
-
   #meme-image {
     max-height: 550px;
     max-width: 620px;
   }
-
   .meme-text {
     font-size: 35px;
   }
-
   #top {
     top: 10px;
   }
-
   #bottom {
     bottom: 10px;
   }
-
-  #bobbies {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-
   .history-text {
     font-size: 10px;
   }
-
   .history-top {
     top: 5px;
   }
-
   .history-bottom {
     bottom: 12px;
   }
