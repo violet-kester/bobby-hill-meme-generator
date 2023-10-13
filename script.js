@@ -1,3 +1,5 @@
+'use strict';
+
 // form data
 const form = document.querySelector("#url-form");
 const topTextInput = document.querySelector("#topTextInput");
